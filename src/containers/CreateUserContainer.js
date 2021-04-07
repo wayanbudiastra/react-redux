@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
+import { Container } from 'react-bootstrap'
+import BackComponent from '../components/BackComponent'
 
 export default class CreateUserContainer extends Component {
     render() {
         return (
-            <div>
-                <h1> create user</h1>
-            </div>
+            <Container>
+            <BackComponent />
+            <h1> Create User</h1>
+            </Container>
+              
         )
     }
 }
